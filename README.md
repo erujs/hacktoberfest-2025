@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎉 Freedom Wall – Hacktoberfest 2025
 
-## Getting Started
+Welcome to the **Freedom Wall**!  
+This is a fun, community-driven project for **Hacktoberfest 2025**.  
 
-First, run the development server:
+The idea is simple:  
+- Every contributor can **add their signature, message, or shoutout** ✍️  
+- Submissions will appear as colorful cards on the **Freedom Wall site** 🌐  
+- It’s like a **digital bulletin board** for the Hacktoberfest community 💜  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 How to Contribute
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Fork this repository** 🍴  
+2. **Add your entry** to [`signatures.json`](./data/signatures.json).  
+  ```json
+  # Example:
+  {
+    "username": "your_username",
+    "message": "Happy Hacktoberfest 2025! 🎃",
+    "url": "https://your-website.com",
+    "backgroundColor": "#0000000",
+    "textColor": "#ffffff"
+  }
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  # Notes:
+   username → required, your GitHub username or alias
+   message → required, your shoutout or note to the wall
+   url → optional, link to your portfolio or socials
+   backgroundColor & textColor → optional (defaults will be applied if missing)
+   ```
+4. Commit & push your changes.
+5. Open a Pull Request with the title: **Add My Signature - @your_username**
+6. That’s it 🎉 Your signature will appear on the wall once merged!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🖼️ Live Site
 
-## Learn More
+👉 The Freedom Wall is deployed and hosted on [Vercel](hacktoberfest-2025.vercel.app)  
+Everyone’s contributions will show up in real time after merging!
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Rules
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Keep it friendly, positive, and respectful.
+- No spam, ads, or inappropriate content 🚫
+- Limit 1 entry per contributor (edit your existing one if needed).
+- Contributions are only accepted during **Hacktoberfest 2025 (October 1 – 31)**.
+- Have fun and celebrate open source! 🎃
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧾 License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open-source under the MIT License.
