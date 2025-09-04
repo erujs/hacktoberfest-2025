@@ -8,6 +8,14 @@ The idea is simple:
 - Submissions will appear as colorful cards on the **Freedom Wall site** 🌐  
 - It’s like a **digital bulletin board** for the Hacktoberfest community 💜  
 
+## 📝 Reminder: Register for Hacktoberfest
+
+Before contributing, make sure you are **registered for Hacktoberfest 2025** so your pull requests count toward the event!  
+
+👉 Register here: [https://hacktoberfest.com](https://hacktoberfest.com)  
+📅 Registration is open from **September 15 – October 31, 2025**  
+✅ Only PRs made between **October 1 – October 31, 2025** will be eligible.  
+
 ## 🚀 How to Contribute
 
 1. **Fork this repository** 🍴  
