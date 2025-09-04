@@ -12,7 +12,7 @@ The idea is simple:
 
 1. **Fork this repository** 🍴  
 2. **Add your entry** to [`signatures.json`](./data/signatures.json).  
-  ```json
+  ```
   # Example:
   {
     "username": "your_username",
@@ -34,7 +34,7 @@ The idea is simple:
 
 ## 🖼️ Live Site
 
-👉 The Freedom Wall is deployed and hosted on [Vercel](hacktoberfest-2025.vercel.app)  
+👉 The Freedom Wall is deployed and hosted on [Vercel](https://hacktoberfest-2025.vercel.app)  
 Everyone’s contributions will show up in real time after merging!
 
 ## ✨ Rules
