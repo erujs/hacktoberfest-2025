@@ -26,7 +26,7 @@ Before contributing, make sure you are **registered for Hacktoberfest 2025** so 
     "username": "your_username",
     "message": "Happy Hacktoberfest 2025! 🎃",
     "url": "https://your-website.com",
-    "backgroundColor": "#0000000",
+    "backgroundColor": "#000000",
     "textColor": "#ffffff"
   }
 
